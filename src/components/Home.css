@@ -1,0 +1,30 @@
+.main{
+    height: auto;
+    min-height: 89vh;
+    /*background-image: url('./assets/homewp.jpg');*/
+    background-color:  aliceblue;
+    display: flex;
+    align-items:center;
+    justify-content: left;
+}
+
+.content{
+width: 40%;
+padding: 60px;
+margin-left: -500px;
+
+}
+p{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.webd{
+    color: #0e012bd8;
+    font-size: 1.8rem;
+}
+h1{
+    color: #0e012b;
+    font-weight: 700;
+    font-size: 50px;
+}

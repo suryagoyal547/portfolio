@@ -1,0 +1,28 @@
+.skill-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+ 
+  
+  .skill-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .skill-overview {
+    font-size: 1rem;
+    color: #666;
+  }
