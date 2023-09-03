@@ -1,17 +1,18 @@
 .main{
     height: auto;
     min-height: 89vh;
-    /*background-image: url('./assets/homewp.jpg');*/
     background-color:  aliceblue;
     display: flex;
     align-items:center;
-    justify-content: left;
 }
+
 
 .content{
 width: 40%;
 padding: 60px;
-margin-left: -500px;
+display: flex;
+flex-direction: column;
+justify-content: left;
 
 }
 p{
@@ -26,5 +27,5 @@ p{
 h1{
     color: #0e012b;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 4rem;
 }
