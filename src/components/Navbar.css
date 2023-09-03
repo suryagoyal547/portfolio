@@ -8,15 +8,19 @@
 }
 
 .nav-left{
-    margin-left: -100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .nav-right{
-    min-width: 30%;
-    margin-right: 130px;
+    min-width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
 
 .text{
     color: white;
@@ -30,7 +34,41 @@
     font-size: 1.3rem;
     color: white;
     font-weight: 600;
-    margin: 0px 50px;
+    
+
+}
+
+@media screen and (max-width: 800px)
+{
+
+    .nav{
+        flex-direction: column;
+        height: auto;
+    }
+    
+
+    .nav-right{
+        flex-direction: column;
+        text-align: center;
+        background-color: #0e012b;
+
+    }
+
+    .nav-right a{
+    
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: white;
+        font-weight: 600;
+        border: 1px solid white;
+        border-radius: 8px;
+        padding: 8px;
+    
+    }
+
+
+
+     
     
 
 }
