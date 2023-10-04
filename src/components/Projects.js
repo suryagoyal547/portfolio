@@ -6,6 +6,7 @@ import weather from './assets/weather.png'
 import imageGen from './assets/image-generator.png'
 import portfolio from './assets/portfolio.png'
 import random from './assets/random.png'
+import property from './assets/property.png'
 
 const Projects = () => {
 
@@ -15,6 +16,15 @@ const Projects = () => {
       title: "Portfolio Website",
       overview: "A Portfolio Website having Skills,projects,contact and About section",
       liveLink: "",
+      githubLink: "https://github.com/suryagoyal547/portfolio",
+    },
+    
+
+    {
+      imageSrc: property,
+      title: "Property Listing App ",
+      overview: "A ReactJs App in Properties are listed in form of cards for 4 different cities. Built for Desktop view only",
+      liveLink: "https://leafy-basbousa-c67033.netlify.app/",
       githubLink: "https://github.com/suryagoyal547/portfolio",
     },
     {
